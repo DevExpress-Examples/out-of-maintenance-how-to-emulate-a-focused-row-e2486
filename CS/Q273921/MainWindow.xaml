@@ -1,0 +1,14 @@
+﻿<Window xmlns:dxpg="http://schemas.devexpress.com/winfx/2008/xaml/pivotgrid"  x:Class="Q273921.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <dxpg:PivotGridControl Name="salesPersonPivot" SelectMode="MultiSelection" CellClick="salesPersonPivot_CellClick">
+            <dxpg:PivotGridControl.Fields>
+                <dxpg:PivotGridField FieldName="Sales Person" Area="RowArea" />
+                <dxpg:PivotGridField FieldName="CategoryName" Area="ColumnArea" Caption="Category Name" />
+                <dxpg:PivotGridField FieldName="Extended Price" Area="DataArea" />
+            </dxpg:PivotGridControl.Fields>
+        </dxpg:PivotGridControl>
+    </Grid>
+</Window>
