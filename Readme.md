@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml.cs](./CS/Q273921/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/Q273921/MainWindow.xaml.vb))
+<!-- default file list end -->
 # How to emulate a focused row
 
 
